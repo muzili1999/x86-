@@ -14,7 +14,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git linkease https://github.com/muzili1999/luci-app-linkease' >>feeds.conf.default
-echo 'src-git bakargon https://github.com/muzili1999/luci-theme-bakargon' >>feeds.conf.default
-echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
+# echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+# echo 'src-git linkease https://github.com/muzili1999/luci-app-linkease' >>feeds.conf.default
+# echo 'src-git bakargon https://github.com/muzili1999/luci-theme-bakargon' >>feeds.conf.default
+git clone https://github.com/vernesong/OpenClash package/OpenClash
+git clone https://github.com/muzili1999/luci-app-linkease package/luci-app-linkease
+git clone https://github.com/muzili1999/luci-theme-bakargon package/luci-theme-bakargon
