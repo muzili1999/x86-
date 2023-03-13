@@ -14,6 +14,6 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#echo 'src-git bakargon https://github.com/muzili1999/luci-theme-bakargon' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git linkease https://github.com/muzili1999/luci-app-linkease' >>feeds.conf.default
+echo 'src-git bakargon https://github.com/muzili1999/luci-theme-bakargon' >>feeds.conf.default
